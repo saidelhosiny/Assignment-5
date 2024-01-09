@@ -1,0 +1,661 @@
+:root {
+    --main-color: #20c997;
+    --secondray-color: #4c4d4d;
+}
+
+
+header {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100% 100%;
+}
+
+.nav-item .active {
+    color: var(--main-color) !important;
+
+}
+
+.nav-item {
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+
+.nav-item a:hover {
+    color: var(--main-color) !important;
+}
+
+.Home-content h1::after {
+    content: "";
+    animation: said infinite alternate 7s;
+    -webkit-animation: said infinite alternate 7s;
+}
+
+@keyframes said {
+  0% {
+    content: "Free";
+  }
+  2% {
+    content: "Fre|";
+  }
+  4% {
+    content: "Fr";
+  }
+  6% {
+    content: "F";
+  }
+  8% {
+    content: "|";
+  }
+  10% {
+    content: "";
+  }
+  12% {
+    content: "S|";
+  }
+  14% {
+    content: "Se";
+  }
+  16% {
+    content: "Sen|";
+  }
+  18% {
+    content: "Seni";
+  }
+  20% {
+    content: "Senio|";
+  }
+  22% {
+    content: "Senior";
+  }
+  24% {
+    content: "Senior |";
+  }
+  26% {
+    content: "Senior F";
+  }
+  28% {
+    content: "Senior Fr|";
+  }
+  30% {
+    content: "Senior Fro";
+  }
+  32% {
+    content: "Senior Fron|";
+  }
+  34% {
+    content: "Senior Front";
+  }
+
+  36% {
+    content: "Senior Front |";
+  }
+  38% {
+    content: "Senior Front e";
+  }
+  40% {
+    content: "Senior Front en|";
+  }
+  42% {
+    content: "Senior Front end";
+  }
+  44% {
+    content: "Senior Front|";
+  }
+  46% {
+    content: "Senior Fron";
+  }
+  48% {
+    content: "Senior Fro|";
+  }
+  50% {
+    content: "Senior Fr";
+  }
+  52% {
+    content: "Senior F|";
+  }
+  54% {
+    content: "Senior ";
+  }
+  56% {
+    content: "Senior|";
+  }
+  58% {
+    content: "";
+  }
+  60% {
+    content: "S|";
+  }
+  62% {
+    content: "SA";
+  }
+  64% {
+    content: "SAI|";
+  }
+  66% {
+    content: "SAID";
+  }
+  68% {
+    content: "SAIDE|";
+  }
+  70% {
+    content: "SAIDEL";
+  }
+  72% {
+    content: "SAIDELH|";
+  }
+  74% {
+    content: "SAIDELHO";
+  }
+  76% {
+    content: "SAIDELHOS|";
+  }
+  78% {
+    content: "SAIDELHOSI";
+  }
+  80% {
+    content: "SAIDELHOSIN|";
+  }
+  82% {
+    content: "SAIDELHOSINY";
+  }
+  84% {
+    content: "SAIDELHOSIN|";
+  }
+  86% {
+    content: "SAIDELHOSI";
+  }
+  88% {
+    content: "SAIDELHOS|";
+  }
+  90% {
+    content: "SAIDELHO";
+  }
+  92% {
+    content: "SAIDELH|";
+  }
+  94% {
+    content: "SAIDEL";
+  }
+  96% {
+    content: "SAIDE|";
+  }
+  98% {
+    content: "SAID";
+  }
+  100% {
+    content: "SAI|";
+  }
+}
+
+.Home-content p:nth-child(3) {
+    font-size: 20px;
+}
+
+.Home-content a {
+    color: var(--main-color);
+    border-color: var(--main-color) !important;
+    font-size: 20px;
+    transition: 0.2 all;
+    -webkit-transition: 0.2 all;
+    -moz-transition: 0.2 all;
+    -ms-transition: 0.2 all;
+    -o-transition: 0.2 all;
+}
+
+.Home-content a:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+.setting-ico {
+    background-color: #555;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 2000;
+}
+
+.slide-down {
+    bottom: 10px;
+
+}
+
+.about-section-head h2::after {
+    content: "ABOUT ME";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.about-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.simone-inf span {
+    color: var(--main-color);
+
+}
+
+.simone-inf p {
+    color: var(--secondray-color);
+    font-size: 20px;
+}
+
+.simone-email li {
+    border-color: #555;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.simone-email li a {
+    color: var(--main-color);
+
+}
+
+.simone-email span {
+    font-size: 20px;
+    color: var(--secondray-color);
+    font-weight: bold;
+
+}
+
+.simone-email button {
+    background-color: var(--main-color) !important;
+    border-color: transparent !important;
+    font-size: 20px;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -ms-transition: 0.1s all;
+    -o-transition: 0.1s all;
+}
+
+.simone-email button:hover {
+    background-color: #054737 !important;
+}
+
+.count span {
+    color: #555;
+    font-size: 25px;
+}
+
+.count p {
+    color: #555;
+    font-size: 18px;
+}
+
+.services-section-head h2::after {
+    content: "SERVICES";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.services-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.skill-icon {
+    width: 15%;
+    color: var(--main-color);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.skill-icon i {
+    background-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.skill-icon i:hover{
+  color: red;
+}
+
+.skill-des p {
+    color: #555;
+    font-size: 18px;
+}
+
+
+
+.resume-section-head h2::after {
+    content: "SUMMAERY";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.resume-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.resume-exp p:nth-child(1) {
+    background-color: var(--main-color);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    color: white;
+}
+
+
+.resume-exp p:nth-child(3){
+    font-size: 18px;
+}
+.resume-exp p:nth-child(4){
+    font-size: 18px;
+    color: #555;
+}
+.progress-bar{
+    background-color: var(--main-color) !important;
+}
+
+.skill-rate p span{
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+.resume-body button{
+    width: fit-content !important;
+    transition: 0.2s all;
+    font-size: 18px !important;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.resume-body button:hover{
+    background-color: #555 !important;
+    color: white !important;
+}
+
+.portfolio-section-head h2::after {
+    content: "PORTFOLIO";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.portfolio-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.nav-pills .nav-link{
+    color: #555 !important;
+    font-size: 18px !important;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.nav-pills .nav-link.active{
+    background-color: unset !important;
+    color: var(--main-color) !important;
+    text-decoration: underline var(--main-color) !important;
+}
+.nav-pills .nav-link:hover{
+    color: var(--main-color) !important;
+}
+.port-image .layer{
+    opacity: 0 !important;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.port-image{
+    overflow: hidden;
+}
+.port-image .layer:hover{
+    opacity: 0.75 !important;
+    overflow: hidden !important;
+   
+}
+.port-image:hover img{
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.port-image:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+.client-section-head h2::after {
+    content: "TESTIMONIAL";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.client-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #555 !important;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color: var(--main-color) !important ;
+
+}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: var(--main-color) !important;
+}
+.client-opnion-txt p {
+font-size: 18px;
+color: #555;
+}
+.clint-opnion-body p{
+font-size: 22px;
+font-weight: 600;
+}
+
+.contact-section-head h2::after {
+    content: "CONTACT";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.contact-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.Address p{
+    color: #555;
+    font-size: 18px;
+}
+.Address p i{
+    color: var(--main-color);
+    margin-right: 20px;
+}
+.notes button{
+    border: none !important;
+    font-size: 20px !important;
+    padding: 15px !important;
+    color: white !important;
+    background-color: var(--main-color) !important;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.notes button:hover{
+    background-color: #054737 !important;
+}
+.footer p {
+    font-size: 20px;
+    color: #555;
+}
+footer p a  {
+    color: var(--main-color);
+}
+footer p a:hover{
+    color: #054737 !important;
+   
+}
+footer li a{
+    color: #555;
+    font-size: 20px;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+footer li a:hover{
+    color: var(--main-color) !important;
+}
+
+@media screen and (max-width:700px) {
+    .about-section-head h2::after {
+       display: none;
+    }
+    .services-section-head  h2::after {
+        display: none;
+     }
+     .resume-section-head  h2::after {
+        display: none;
+     }
+     .portfolio-section-head  h2::after {
+        display: none;
+     }
+     .client-section-head   h2::after {
+        display: none;
+     }
+    .contact-section-head  h2::after {
+        display: none;
+     }
+}
